@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Palette"
         tools:targetApi="31">
         <activity
+            android:name=".CardExpandedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_card_expanded"
+            android:theme="@style/Theme.Palette" />
+        <activity
+            android:name=".CardExpanded"
+            android:exported="false"
+            android:label="@string/title_activity_card_expanded"
+            android:theme="@style/Theme.Palette" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
